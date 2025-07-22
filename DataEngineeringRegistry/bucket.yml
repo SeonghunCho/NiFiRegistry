@@ -6,8 +6,8 @@ flows:
   2b361d7d-2a4d-4a3a-86ba-cf301ff53528: {ver: 5, file: ReadDataLake.snapshot, comments: Keep
       Source File = false, author: anonymous, created: 1753160214405, flowName: ReadDataLake,
     flowDesc: ''}
-  eff9bfd1-cde5-45e8-a282-6a038ce82201: {ver: 1, file: InsertStaging.snapshot, comments: '',
-    author: anonymous, created: 1753150445538, flowName: InsertStaging, flowDesc: ''}
+  eff9bfd1-cde5-45e8-a282-6a038ce82201: {ver: 2, file: InsertStaging.snapshot, comments: complete,
+    author: anonymous, created: 1753160289804, flowName: InsertStaging, flowDesc: ''}
   12e2d603-39dd-46e0-b6e2-897acf884eb4: {ver: 1, file: ValidateStaging.snapshot, comments: '',
     author: anonymous, created: 1753150418581, flowName: ValidateStaging, flowDesc: ''}
   c0ce2835-35ae-429b-b2c6-6d938ef1e990: {ver: 1, file: QueryStaging.snapshot, comments: '',
