@@ -380,7 +380,7 @@
           },
           "properties" : {
             "Support Fragmented Transactions" : "true",
-            "putsql-sql-statement" : "INSERT INTO ${table} VALUES ('${userid}','${name}',${age},'${street}','${city}','${state}','${zip}');",
+            "putsql-sql-statement" : "INSERT INTO ${table} VALUES ('${userid}','${name}',${age},'${street}','${city}','${state}','${zip}')\nON CONFLICT (userid)\nDO NOTHING;",
             "Batch Size" : "1",
             "Obtain Generated Keys" : "false",
             "JDBC Connection Pool" : "abe34cbe-0566-3f6c-ae7a-8cb2546de40c",
