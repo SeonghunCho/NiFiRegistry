@@ -8,7 +8,137 @@
       "flowContents" : {
         "comments" : "",
         "componentType" : "PROCESS_GROUP",
-        "connections" : [ ],
+        "connections" : [ {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "2fc2563e-f9e3-334a-a548-81bd2536f0d7",
+            "instanceIdentifier" : "0198106e-b1c2-1cb6-4227-cc0a914a2152",
+            "name" : "EvaluateJsonPath",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "aab61d5c-cf1c-338a-94d9-cc88f2990dc0",
+          "instanceIdentifier" : "30ebf510-0198-1000-0240-066ed9e37674",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "output stream" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "db75b34c-ac83-35d3-9a8c-9ac973f95c0e",
+            "instanceIdentifier" : "0198106d-b1c2-1cb6-83eb-2030188a4961",
+            "name" : "ExecuteStreamCommand",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "a6a0d6e5-d0dc-3cc2-9d27-2ded0e31ccc3",
+            "instanceIdentifier" : "0198106c-b1c2-1cb6-4784-8671298053c5",
+            "name" : "OutputValStaging",
+            "type" : "OUTPUT_PORT"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "99aa11d5-ca30-394a-9c3d-4a834d5ff22b",
+          "instanceIdentifier" : "30ed1c60-0198-1000-f071-df4c5dbe8d8b",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "pass" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "f8d71adb-0f63-3763-8fc9-fcfc89bd6e94",
+            "instanceIdentifier" : "0198106f-b1c2-1cb6-8e32-301c59497465",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "db75b34c-ac83-35d3-9a8c-9ac973f95c0e",
+            "instanceIdentifier" : "0198106d-b1c2-1cb6-83eb-2030188a4961",
+            "name" : "ExecuteStreamCommand",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "31ad7f0f-6876-3b58-bec5-c29177c2cdd8",
+          "instanceIdentifier" : "30ea97c1-0198-1000-5c86-c27562329a01",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "" ],
+          "source" : {
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "da8a84fa-6b77-38c9-90a1-e4dacf894661",
+            "instanceIdentifier" : "0198106b-b1c2-1cb6-2211-4a11bd6c9caa",
+            "name" : "InputQueryStaging",
+            "type" : "INPUT_PORT"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "f8d71adb-0f63-3763-8fc9-fcfc89bd6e94",
+            "instanceIdentifier" : "0198106f-b1c2-1cb6-8e32-301c59497465",
+            "name" : "RouteOnAttribute",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "71c7b8b7-9634-3975-bb9f-bef28f0994cc",
+          "instanceIdentifier" : "30ec9bb7-0198-1000-325c-0944fbc7485f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "matched" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "9705f362-a401-3495-8f11-63cae8d3404a",
+            "id" : "2fc2563e-f9e3-334a-a548-81bd2536f0d7",
+            "instanceIdentifier" : "0198106e-b1c2-1cb6-4227-cc0a914a2152",
+            "name" : "EvaluateJsonPath",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        } ],
         "controllerServices" : [ ],
         "defaultBackPressureDataSizeThreshold" : "1 GB",
         "defaultBackPressureObjectThreshold" : 10000,
@@ -17,17 +147,269 @@
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
         "identifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
-        "inputPorts" : [ ],
+        "inputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "da8a84fa-6b77-38c9-90a1-e4dacf894661",
+          "instanceIdentifier" : "0198106b-b1c2-1cb6-2211-4a11bd6c9caa",
+          "name" : "InputQueryStaging",
+          "position" : {
+            "x" : 5304.0,
+            "y" : -640.0
+          },
+          "scheduledState" : "ENABLED",
+          "type" : "INPUT_PORT"
+        } ],
         "instanceIdentifier" : "0198102a-b1c2-1cb6-5f39-f68847941107",
         "labels" : [ ],
         "name" : "ValidateStaging",
-        "outputPorts" : [ ],
+        "outputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "OUTPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "a6a0d6e5-d0dc-3cc2-9d27-2ded0e31ccc3",
+          "instanceIdentifier" : "0198106c-b1c2-1cb6-4784-8671298053c5",
+          "name" : "OutputValStaging",
+          "position" : {
+            "x" : 5296.0,
+            "y" : -224.0
+          },
+          "scheduledState" : "ENABLED",
+          "type" : "OUTPUT_PORT"
+        } ],
         "position" : {
           "x" : 5560.0,
           "y" : -360.0
         },
         "processGroups" : [ ],
-        "processors" : [ ],
+        "processors" : [ {
+          "autoTerminatedRelationships" : [ "failure", "unmatched" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.28.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "2fc2563e-f9e3-334a-a548-81bd2536f0d7",
+          "instanceIdentifier" : "0198106e-b1c2-1cb6-4227-cc0a914a2152",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "EvaluateJsonPath",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 5816.0,
+            "y" : -472.0
+          },
+          "properties" : {
+            "result" : "$.result",
+            "Destination" : "flowfile-content",
+            "Max String Length" : "20 MB",
+            "Return Type" : "auto-detect",
+            "Null Value Representation" : "empty string",
+            "Path Not Found Behavior" : "ignore"
+          },
+          "propertyDescriptors" : {
+            "result" : {
+              "displayName" : "result",
+              "identifiesControllerService" : false,
+              "name" : "result",
+              "sensitive" : false
+            },
+            "Destination" : {
+              "displayName" : "Destination",
+              "identifiesControllerService" : false,
+              "name" : "Destination",
+              "sensitive" : false
+            },
+            "Max String Length" : {
+              "displayName" : "Max String Length",
+              "identifiesControllerService" : false,
+              "name" : "Max String Length",
+              "sensitive" : false
+            },
+            "Return Type" : {
+              "displayName" : "Return Type",
+              "identifiesControllerService" : false,
+              "name" : "Return Type",
+              "sensitive" : false
+            },
+            "Null Value Representation" : {
+              "displayName" : "Null Value Representation",
+              "identifiesControllerService" : false,
+              "name" : "Null Value Representation",
+              "sensitive" : false
+            },
+            "Path Not Found Behavior" : {
+              "displayName" : "Path Not Found Behavior",
+              "identifiesControllerService" : false,
+              "name" : "Path Not Found Behavior",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.EvaluateJsonPath",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "original", "nonzero status" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.28.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "db75b34c-ac83-35d3-9a8c-9ac973f95c0e",
+          "instanceIdentifier" : "0198106d-b1c2-1cb6-83eb-2030188a4961",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "ExecuteStreamCommand",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 5816.0,
+            "y" : -672.0
+          },
+          "properties" : {
+            "argumentsStrategy" : "Command Arguments Property",
+            "Max Attribute Length" : "256",
+            "Command Path" : "/home/data/anaconda3/bin/python",
+            "Argument Delimiter" : ";",
+            "Ignore STDIN" : "false",
+            "Command Arguments" : "/home/data/ch11/sv.py"
+          },
+          "propertyDescriptors" : {
+            "argumentsStrategy" : {
+              "displayName" : "Command Arguments Strategy",
+              "identifiesControllerService" : false,
+              "name" : "argumentsStrategy",
+              "sensitive" : false
+            },
+            "Max Attribute Length" : {
+              "displayName" : "Max Attribute Length",
+              "identifiesControllerService" : false,
+              "name" : "Max Attribute Length",
+              "sensitive" : false
+            },
+            "Output MIME Type" : {
+              "displayName" : "Output MIME Type",
+              "identifiesControllerService" : false,
+              "name" : "Output MIME Type",
+              "sensitive" : false
+            },
+            "Working Directory" : {
+              "displayName" : "Working Directory",
+              "identifiesControllerService" : false,
+              "name" : "Working Directory",
+              "sensitive" : false
+            },
+            "Command Path" : {
+              "displayName" : "Command Path",
+              "identifiesControllerService" : false,
+              "name" : "Command Path",
+              "sensitive" : false
+            },
+            "Output Destination Attribute" : {
+              "displayName" : "Output Destination Attribute",
+              "identifiesControllerService" : false,
+              "name" : "Output Destination Attribute",
+              "sensitive" : false
+            },
+            "Argument Delimiter" : {
+              "displayName" : "Argument Delimiter",
+              "identifiesControllerService" : false,
+              "name" : "Argument Delimiter",
+              "sensitive" : false
+            },
+            "Ignore STDIN" : {
+              "displayName" : "Ignore STDIN",
+              "identifiesControllerService" : false,
+              "name" : "Ignore STDIN",
+              "sensitive" : false
+            },
+            "Command Arguments" : {
+              "displayName" : "Command Arguments",
+              "identifiesControllerService" : false,
+              "name" : "Command Arguments",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ExecuteStreamCommand",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "unmatched" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.28.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "9705f362-a401-3495-8f11-63cae8d3404a",
+          "identifier" : "f8d71adb-0f63-3763-8fc9-fcfc89bd6e94",
+          "instanceIdentifier" : "0198106f-b1c2-1cb6-8e32-301c59497465",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "RouteOnAttribute",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 5816.0,
+            "y" : -264.0
+          },
+          "properties" : {
+            "Routing Strategy" : "Route to Property name",
+            "pass" : "${result:startsWith('pass')}"
+          },
+          "propertyDescriptors" : {
+            "Routing Strategy" : {
+              "displayName" : "Routing Strategy",
+              "identifiesControllerService" : false,
+              "name" : "Routing Strategy",
+              "sensitive" : false
+            },
+            "pass" : {
+              "displayName" : "pass",
+              "identifiesControllerService" : false,
+              "name" : "pass",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 25,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.RouteOnAttribute",
+          "yieldDuration" : "1 sec"
+        } ],
         "remoteProcessGroups" : [ ],
         "variables" : { }
       },
