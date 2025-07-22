@@ -1,6 +1,8 @@
 flows:
   1e5b3b39-1d39-4831-991a-5c4c4cff9526: {ver: 2, file: SCF.snapshot, comments: Add
       new ElasticSCF, author: anonymous, created: 1753103724424, flowName: SCF, flowDesc: ''}
+  8f7d1ea7-5763-4131-ac11-3f5da49176b6: {ver: 1, file: InsertWarehouse.snapshot, comments: '',
+    author: anonymous, created: 1753150426765, flowName: InsertWarehouse, flowDesc: ''}
   2b361d7d-2a4d-4a3a-86ba-cf301ff53528: {ver: 1, file: ReadDataLake.snapshot, comments: '',
     author: anonymous, created: 1753150400859, flowName: ReadDataLake, flowDesc: ''}
   12e2d603-39dd-46e0-b6e2-897acf884eb4: {ver: 1, file: ValidateStaging.snapshot, comments: '',
