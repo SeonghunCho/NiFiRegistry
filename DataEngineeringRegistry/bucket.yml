@@ -7,5 +7,7 @@ flows:
     author: anonymous, created: 1753150400859, flowName: ReadDataLake, flowDesc: ''}
   12e2d603-39dd-46e0-b6e2-897acf884eb4: {ver: 1, file: ValidateStaging.snapshot, comments: '',
     author: anonymous, created: 1753150418581, flowName: ValidateStaging, flowDesc: ''}
+  1b6f5267-2099-4abb-8ec8-bed707ca66a2: {ver: 1, file: ScanLake.snapshot, comments: '',
+    author: anonymous, created: 1753150440931, flowName: ScanLake, flowDesc: ''}
 layoutVer: 1
 bucketId: d13363c2-2a28-483a-bd6b-e819a816ed9b
