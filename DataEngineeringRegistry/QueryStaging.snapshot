@@ -70,7 +70,7 @@
             "groupId" : "eceaff34-b0a7-3dea-ad06-4c64f116ab0f",
             "id" : "99770686-f2b7-3fb2-82f3-825462a71692",
             "instanceIdentifier" : "01981059-b1c2-1cb6-585c-a246fb189eb8",
-            "name" : "InputQueryStaging",
+            "name" : "InputStaging",
             "type" : "INPUT_PORT"
           },
           "zIndex" : 0
@@ -419,7 +419,7 @@
               "name" : "database-driver-locations",
               "resourceDefinition" : {
                 "cardinality" : "MULTIPLE",
-                "resourceTypes" : [ "URL", "FILE", "DIRECTORY" ]
+                "resourceTypes" : [ "DIRECTORY", "URL", "FILE" ]
               },
               "sensitive" : false
             },
@@ -454,10 +454,10 @@
           "groupIdentifier" : "eceaff34-b0a7-3dea-ad06-4c64f116ab0f",
           "identifier" : "99770686-f2b7-3fb2-82f3-825462a71692",
           "instanceIdentifier" : "01981059-b1c2-1cb6-585c-a246fb189eb8",
-          "name" : "InputQueryStaging",
+          "name" : "InputStaging",
           "position" : {
-            "x" : 5472.0,
-            "y" : -944.0
+            "x" : 5400.0,
+            "y" : -888.0
           },
           "scheduledState" : "ENABLED",
           "type" : "INPUT_PORT"
@@ -475,8 +475,8 @@
           "instanceIdentifier" : "0198105a-b1c2-1cb6-0d15-fd1dbb4dbb72",
           "name" : "OutputQueryStaging",
           "position" : {
-            "x" : 6368.0,
-            "y" : -952.0
+            "x" : 5392.0,
+            "y" : -464.0
           },
           "scheduledState" : "ENABLED",
           "type" : "OUTPUT_PORT"
@@ -506,8 +506,8 @@
           "name" : "RouteOnAttribute",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 5904.0,
-            "y" : -744.0
+            "x" : 5920.0,
+            "y" : -512.0
           },
           "properties" : {
             "Routing Strategy" : "Route to Property name",
@@ -556,8 +556,8 @@
           "name" : "ExecuteSQLRecord",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 5416.0,
-            "y" : -744.0
+            "x" : 5920.0,
+            "y" : -920.0
           },
           "properties" : {
             "esql-max-rows" : "0",
@@ -688,8 +688,8 @@
           "name" : "EvaluateJsonPath",
           "penaltyDuration" : "30 sec",
           "position" : {
-            "x" : 5904.0,
-            "y" : -1032.0
+            "x" : 5920.0,
+            "y" : -720.0
           },
           "properties" : {
             "Destination" : "flowfile-content",
