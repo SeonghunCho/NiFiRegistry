@@ -3,8 +3,8 @@ flows:
       new ElasticSCF, author: anonymous, created: 1753103724424, flowName: SCF, flowDesc: ''}
   8f7d1ea7-5763-4131-ac11-3f5da49176b6: {ver: 1, file: InsertWarehouse.snapshot, comments: '',
     author: anonymous, created: 1753150426765, flowName: InsertWarehouse, flowDesc: ''}
-  2b361d7d-2a4d-4a3a-86ba-cf301ff53528: {ver: 4, file: ReadDataLake.snapshot, comments: Keep
-      Source File = true, author: anonymous, created: 1753159227845, flowName: ReadDataLake,
+  2b361d7d-2a4d-4a3a-86ba-cf301ff53528: {ver: 5, file: ReadDataLake.snapshot, comments: Keep
+      Source File = false, author: anonymous, created: 1753160214405, flowName: ReadDataLake,
     flowDesc: ''}
   eff9bfd1-cde5-45e8-a282-6a038ce82201: {ver: 1, file: InsertStaging.snapshot, comments: '',
     author: anonymous, created: 1753150445538, flowName: InsertStaging, flowDesc: ''}

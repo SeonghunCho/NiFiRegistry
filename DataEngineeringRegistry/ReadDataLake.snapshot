@@ -283,7 +283,7 @@
             "y" : -936.0
           },
           "properties" : {
-            "Keep Source File" : "true",
+            "Keep Source File" : "false",
             "Minimum File Age" : "0 sec",
             "Polling Interval" : "0 sec",
             "Input Directory" : "/home/data/datalake",
