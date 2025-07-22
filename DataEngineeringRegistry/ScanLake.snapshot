@@ -183,8 +183,8 @@
           "type" : "OUTPUT_PORT"
         } ],
         "position" : {
-          "x" : 6256.0,
-          "y" : -896.0
+          "x" : 6184.0,
+          "y" : -904.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -212,7 +212,7 @@
           },
           "properties" : {
             "Dictionary Encoding" : "text",
-            "Dictionary File" : "/home/data/datalake/VIP.txt"
+            "Dictionary File" : "/home/data/ch11/VIP.txt"
           },
           "propertyDescriptors" : {
             "Dictionary Encoding" : {

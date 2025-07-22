@@ -11,7 +11,7 @@ flows:
     author: anonymous, created: 1753150418581, flowName: ValidateStaging, flowDesc: ''}
   c0ce2835-35ae-429b-b2c6-6d938ef1e990: {ver: 4, file: QueryStaging.snapshot, comments: '',
     author: anonymous, created: 1753167166321, flowName: QueryStaging, flowDesc: ''}
-  1b6f5267-2099-4abb-8ec8-bed707ca66a2: {ver: 2, file: ScanLake.snapshot, comments: complete,
-    author: anonymous, created: 1753155565425, flowName: ScanLake, flowDesc: ''}
+  1b6f5267-2099-4abb-8ec8-bed707ca66a2: {ver: 3, file: ScanLake.snapshot, comments: '',
+    author: anonymous, created: 1753167248666, flowName: ScanLake, flowDesc: ''}
 layoutVer: 1
 bucketId: d13363c2-2a28-483a-bd6b-e819a816ed9b
