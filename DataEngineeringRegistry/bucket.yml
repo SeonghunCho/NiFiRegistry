@@ -3,5 +3,7 @@ flows:
       new ElasticSCF, author: anonymous, created: 1753103724424, flowName: SCF, flowDesc: ''}
   2b361d7d-2a4d-4a3a-86ba-cf301ff53528: {ver: 1, file: ReadDataLake.snapshot, comments: '',
     author: anonymous, created: 1753150400859, flowName: ReadDataLake, flowDesc: ''}
+  12e2d603-39dd-46e0-b6e2-897acf884eb4: {ver: 1, file: ValidateStaging.snapshot, comments: '',
+    author: anonymous, created: 1753150418581, flowName: ValidateStaging, flowDesc: ''}
 layoutVer: 1
 bucketId: d13363c2-2a28-483a-bd6b-e819a816ed9b
