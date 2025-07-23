@@ -96,7 +96,7 @@
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure", "success" ],
+          "selectedRelationships" : [ "success", "failure" ],
           "source" : {
             "comments" : "",
             "groupId" : "51f45cd1-2bef-3016-a54d-d92a0babd224",
@@ -239,7 +239,7 @@
               "name" : "database-driver-locations",
               "resourceDefinition" : {
                 "cardinality" : "MULTIPLE",
-                "resourceTypes" : [ "URL", "FILE", "DIRECTORY" ]
+                "resourceTypes" : [ "DIRECTORY", "URL", "FILE" ]
               },
               "sensitive" : false
             },
@@ -381,7 +381,7 @@
           "properties" : {
             "Support Fragmented Transactions" : "true",
             "putsql-sql-statement" : "INSERT INTO ${table} VALUES ('${userid}','${name}',${age},'${street}','${city}','${state}','${zip}')\nON CONFLICT (userid)\nDO NOTHING;",
-            "Batch Size" : "1",
+            "Batch Size" : "100",
             "Obtain Generated Keys" : "false",
             "JDBC Connection Pool" : "abe34cbe-0566-3f6c-ae7a-8cb2546de40c",
             "database-session-autocommit" : "false",
