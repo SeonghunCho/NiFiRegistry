@@ -10,7 +10,7 @@
         "componentType" : "PROCESS_GROUP",
         "connections" : [ {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -43,7 +43,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -75,7 +75,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -135,8 +135,8 @@
           "type" : "OUTPUT_PORT"
         } ],
         "position" : {
-          "x" : 5576.0,
-          "y" : -896.0
+          "x" : 5560.0,
+          "y" : -904.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -287,7 +287,7 @@
             "Minimum File Age" : "0 sec",
             "Polling Interval" : "0 sec",
             "Input Directory" : "/home/data/datalake",
-            "Batch Size" : "10",
+            "Batch Size" : "100",
             "Minimum File Size" : "0 B",
             "Ignore Hidden Files" : "true",
             "Recurse Subdirectories" : "true",

@@ -10,7 +10,7 @@
         "componentType" : "PROCESS_GROUP",
         "connections" : [ {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -42,7 +42,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -75,7 +75,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -96,7 +96,7 @@
           "name" : "",
           "partitioningAttribute" : "",
           "prioritizers" : [ ],
-          "selectedRelationships" : [ "success", "failure" ],
+          "selectedRelationships" : [ "failure", "success" ],
           "source" : {
             "comments" : "",
             "groupId" : "51f45cd1-2bef-3016-a54d-d92a0babd224",
@@ -437,7 +437,7 @@
               "sensitive" : false
             }
           },
-          "retriedRelationships" : [ ],
+          "retriedRelationships" : [ "failure", "retry" ],
           "retryCount" : 10,
           "runDurationMillis" : 0,
           "scheduledState" : "ENABLED",
