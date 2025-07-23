@@ -10,7 +10,7 @@
         "componentType" : "PROCESS_GROUP",
         "connections" : [ {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -43,7 +43,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -76,7 +76,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -109,7 +109,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -511,7 +511,7 @@
           },
           "properties" : {
             "Routing Strategy" : "Route to Property name",
-            "allrecords" : "${recordcount:ge( 1000 )}"
+            "allrecords" : "${recordcount:ge(1000)}"
           },
           "propertyDescriptors" : {
             "Routing Strategy" : {
@@ -692,7 +692,7 @@
             "y" : -720.0
           },
           "properties" : {
-            "Destination" : "flowfile-content",
+            "Destination" : "flowfile-attribute",
             "recordcount" : "$.count",
             "Max String Length" : "20 MB",
             "Return Type" : "auto-detect",
