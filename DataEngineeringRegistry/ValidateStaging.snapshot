@@ -10,7 +10,7 @@
         "componentType" : "PROCESS_GROUP",
         "connections" : [ {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -43,7 +43,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -75,7 +75,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -107,7 +107,7 @@
           "zIndex" : 0
         }, {
           "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
+          "backPressureObjectThreshold" : 2000,
           "bends" : [ ],
           "componentType" : "CONNECTION",
           "destination" : {
@@ -210,7 +210,7 @@
           },
           "properties" : {
             "result" : "$.result",
-            "Destination" : "flowfile-content",
+            "Destination" : "flowfile-attribute",
             "Max String Length" : "20 MB",
             "Return Type" : "auto-detect",
             "Null Value Representation" : "empty string",
